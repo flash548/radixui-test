@@ -12,7 +12,7 @@ function App() {
   }, [appState.themeMode]);
 
   return (
-    <Theme>
+    <Theme appearance={appState.themeMode}>
       <NavBar />
     </Theme>
   );
